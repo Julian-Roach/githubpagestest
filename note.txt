@@ -1,0 +1,5 @@
+By the way, the command I used to compile Gravity_simulator in mingw64 was:
+
+g++ main.cpp -o gravity_simulator.exe -mwindows -DSFML_STATIC -IC:/msys64/mingw64/include -LC:/msys64/mingw64/lib -lmingw32 -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lfreetype -lwinmm -lgdi32 -luser32 -lws2_32 -ladvapi32 -lshell32 -static
+
+Which, JESUS is it hard to figure out at first! As a Visual Studio noobie I found this extremely challenging, but hey..
